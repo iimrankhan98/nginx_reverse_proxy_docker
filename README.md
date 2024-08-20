@@ -15,9 +15,7 @@ docker build -t web-app:v1 .
 
 docker run -dit --name web-app  web-app:v1
 
-Go to nginx.conf file:- vim /etc/nginx/nginx.conf
-
-Add docker url "http://172.17.0.2:80;
+Go to nginx.conf file:- vim /etc/nginx/nginx.conf and Add docker url " http://172.17.0.2:80; "
 
 
 
