@@ -25,3 +25,9 @@ nginx -t
 
 # 2. Host Machine Ubuntu
 
+apt install nginx -y
+
+service nginx status
+
+Go to nginx.conf file:- vim /etc/nginx/nginx.conf and Add docker url " http://172.17.0.2:8081; "
+
