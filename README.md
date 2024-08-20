@@ -23,4 +23,5 @@ nginx -t
 
 
 
+# 2. Host machine Ubuntu
 
