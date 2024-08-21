@@ -39,6 +39,8 @@ sudo apt-get install docker-ce
 
 service docker status
 
+# Install Nginx on Ubuntu
+
 apt install nginx -y
 
 service nginx status
