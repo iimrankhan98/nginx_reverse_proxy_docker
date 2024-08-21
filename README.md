@@ -25,6 +25,8 @@ nginx -t
 
 # 2. Host Machine Ubuntu
 
+# Install Docker on Ubuntu
+
 apt install nginx -y
 
 service nginx status
