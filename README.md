@@ -49,13 +49,6 @@ service nginx status
 
 Go to nginx.conf file:- vim /etc/nginx/nginx.conf and reverse proxy configuration
 
-----------------------------------------------------------------------
-server {
-                listen 80;
-                server_name 15.207.100.222;
-                location / {
-                        proxy_pass http://172.17.0.2:80;
-                }
+service nginx restart
 
-        }
------------------------------------------------------------------------
+nginx -t 
